@@ -1,0 +1,18 @@
+Task 1:
+/*
+Create a time based LRU,
+cache entries will be added to the cache,
+when the cache is full, the least recently used entry will be removed,
+ensure cache will contain only maxiumum number of items,
+ensure cache entry will expire when last accessed time is older than expiry time,
+thread safe, can use hash library
+*/
+
+Task 2:
+/*
+Create a housekeeping tool,
+remove files based on maximum age (days),
+remove files based on maximum number to keep,
+support yaml configuration to specify directries and configurations,
+cli with a YAML config file to read
+*/
